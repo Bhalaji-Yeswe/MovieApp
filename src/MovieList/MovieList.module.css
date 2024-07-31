@@ -1,0 +1,33 @@
+.movie-list{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin:20px;
+    animation: linear;
+    animation-name: moveInfinite;
+    animation-duration: 15s;
+    animation-direction: alternate-reverse;
+}
+img{
+    height: 35vh;
+}
+
+img:hover{
+    cursor: pointer;
+}
+ /* @keyframes moveInfinite{
+    0% {
+        left: 0;
+        transform: translateX(0);
+      }
+      100% {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+ } */
+
+ h3{
+    text-align: left;
+    position: relative;
+    left: 2%;
+ }

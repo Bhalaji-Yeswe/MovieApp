@@ -1,0 +1,38 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content img{
+    border-radius: 4px;
+    height: 50vh;
+    margin: 20px;
+}
+
+.paras{
+    text-align: left;
+    justify-content: center;
+    margin: 20px 0;
+    width: 50rem;
+}
+
+li{
+    list-style: none;
+}
+button{
+    margin: 2rem;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #f0aef0
+
+}

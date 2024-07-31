@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+.main img{
+    width: 20vw;
+    height: 25vh;
+    border-radius: 12px;
+    display: block;
+}
+
+.main p{
+    text-align: center;
+}

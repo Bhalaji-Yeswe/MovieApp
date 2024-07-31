@@ -1,0 +1,18 @@
+.loader{
+    width: 75px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid #dddd;
+    border-top-color: #313edf;
+    border-radius: 50%;
+    animation: spinning 0.75s ease infinite;
+    margin: auto;
+}
+
+@keyframes spinning{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
